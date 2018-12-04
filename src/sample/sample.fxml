@@ -42,7 +42,7 @@
             <Label text="prezime:" GridPane.rowIndex="2" />
             <Label prefHeight="17.0" prefWidth="87.0" text="broj indexa:" GridPane.rowIndex="3" />
             <TextField prefHeight="25.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="imeField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
@@ -67,7 +67,7 @@
             <Label prefHeight="17.0" prefWidth="131.0" text="mjesto rođenja:" GridPane.rowIndex="3" />
             <TextField prefHeight="25.0" prefWidth="88.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ComboBox fx:id="mjesto" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
       <GridPane prefHeight="148.0" prefWidth="225.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
@@ -126,8 +126,8 @@
             <CheckBox mnemonicParsing="false" text="DA" GridPane.rowIndex="7" />
             <CheckBox mnemonicParsing="false" text="NE" GridPane.columnIndex="1" GridPane.rowIndex="7" />
             <ChoiceBox fx:id="choisebox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <ChoiceBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <ChoiceBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ChoiceBox fx:id="godina" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ChoiceBox fx:id="odsjek" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
                   
                </children>
